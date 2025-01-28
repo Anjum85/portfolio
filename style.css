@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.project {
+    position: relative;
+    margin: 20px;
+    width: 300px; /* Adjust size */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.case-study-button {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.case-study-button:hover {
+    background: white;
+    color: black;
+    transform: translateX(-50%) scale(1.05);
+}
+
+/* About Page Styles */
+.about {
+    padding: 40px;
+}
+
+.about h2 {
+    margin-top: 20px;
+    color: #444;
+}
+
+.about ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.about ul li {
+    background: #ddd;
+    padding: 8px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
